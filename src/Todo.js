@@ -8,11 +8,12 @@ export class Todo extends React.Component{
 
     render(){
         return(
-            <div>
-                <h2>{this.props.text}</h2>
-                <h2>{this.props.priority}</h2>
-                <h2>{this.props.priority}</h2>
-            </div>
+            
+            <p>
+                <b>{this.props.text}</b>
+                <b>{this.props.priority}</b>
+                <b>{this.props.dueDate}</b>
+            </p>
             
         );
 
