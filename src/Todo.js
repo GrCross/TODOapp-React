@@ -8,15 +8,14 @@ export class Todo extends React.Component{
 
     render(){
         return(
-            
-            <p>
-                <b>{this.props.text}</b>
-                <b>{this.props.priority}</b>
-                <b>{this.props.dueDate}</b>
-            </p>
-            
+
+            <tr>
+                <td>{this.props.text}</td>
+                <td>{this.props.priority}</td>
+                <td>{this.props.dueDate.toString()}</td>
+            </tr>
+
         );
 
     }
-
 }
